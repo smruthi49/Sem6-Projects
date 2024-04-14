@@ -67,3 +67,9 @@ parallel algorithms such as parallel A* or employing multi-threaded
 implementations, the speedup achieved may not scale linearly with the number
 of processing units.
 
+## Test
+Type in your terminal to compile :\
+`g++ main.cpp -o run`
+
+To Run :\
+`./run -t 4 -b 128 -f input1.txt`
